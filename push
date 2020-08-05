@@ -1,5 +1,7 @@
 #!/bin/bash
 
-git push
+cd ~/blog
+
+git add . && git commit -m 'backup' && git push
 
 hexo g -d
