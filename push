@@ -2,6 +2,6 @@
 
 cd ~/blog
 
-git add . && git commit -m 'backup' && git push
+git add . && git commit -m 'backup' && git push -f
 
 hexo g -d
